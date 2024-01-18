@@ -1,0 +1,22 @@
+/* カード画像のスタイル */
+#cardImages img {
+    width: 240px; /* 画像の幅を調整 */
+    height: auto; /* 高さを自動調整してアスペクト比を保つ */
+    margin: 5px; /* 画像の間隔を調整 */
+}
+  
+/* カードImages要素のスタイル */
+#cardImages {
+    display: grid; /* 画像をグリッドとして配置 */
+    grid-template-columns: repeat(5, 1fr); /* 5列の均等な幅 */
+    justify-content: center; /* 画像を中央に配置 */
+    gap: 10px; /* グリッドセル間の間隔を調整 */
+}
+
+#cardList {
+    color: black;
+}
+
+h1 {
+    color: brown;
+}
